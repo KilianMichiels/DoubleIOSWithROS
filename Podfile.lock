@@ -1,0 +1,17 @@
+PODS:
+  - OpenCV (3.2.0):
+    - OpenCV/Dynamic (= 3.2.0)
+  - OpenCV/Dynamic (3.2.0)
+  - SocketRocket (0.5.1)
+
+DEPENDENCIES:
+  - OpenCV
+  - SocketRocket
+
+SPEC CHECKSUMS:
+  OpenCV: 0f7ab403d1e81769bc6f4f524c3c6928ecb1fdb8
+  SocketRocket: d57c7159b83c3c6655745cd15302aa24b6bae531
+
+PODFILE CHECKSUM: cfbd7389d3123dc82d955d0e18c6854df315ab7a
+
+COCOAPODS: 1.2.1
