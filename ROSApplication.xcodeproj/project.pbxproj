@@ -1,0 +1,700 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3919F9011E9D6411007E30FE /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3919F9001E9D6411007E30FE /* Foundation.framework */; };
+		3919F9031E9D642A007E30FE /* libicucore.A.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 3919F9021E9D642A007E30FE /* libicucore.A.tbd */; };
+		3919F9051E9D644A007E30FE /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3919F9041E9D644A007E30FE /* CFNetwork.framework */; };
+		399169C01EAF55CD00E27A1C /* Giraffe.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 399169BF1EAF55CD00E27A1C /* Giraffe.jpg */; };
+		39B085841E9E363F0057FCFD /* new-ipad-wallpaper-hd-2048x2048-110.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 39B085831E9E363F0057FCFD /* new-ipad-wallpaper-hd-2048x2048-110.jpg */; };
+		39B085871E9E56D00057FCFD /* iPad-Air-Advertising-Wallpaper-Green-Jason-Zigrino.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 39B085861E9E56D00057FCFD /* iPad-Air-Advertising-Wallpaper-Green-Jason-Zigrino.jpg */; };
+		39E7C19E1EA7741200DA1EAB /* DoubleControlSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A810762C1EA0ECE400BCA85F /* DoubleControlSDK.framework */; };
+		39FCCDDE1E9D620A00B054A9 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 39FCCDDD1E9D620A00B054A9 /* main.m */; };
+		39FCCDE11E9D620A00B054A9 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 39FCCDE01E9D620A00B054A9 /* AppDelegate.m */; };
+		39FCCDEA1E9D620A00B054A9 /* ROSApplication.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 39FCCDE81E9D620A00B054A9 /* ROSApplication.xcdatamodeld */; };
+		39FCCDEC1E9D620A00B054A9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 39FCCDEB1E9D620A00B054A9 /* Assets.xcassets */; };
+		39FCCE681E9D626400B054A9 /* PointMessage.m in Sources */ = {isa = PBXBuildFile; fileRef = 39FCCDFB1E9D626400B054A9 /* PointMessage.m */; };
+		39FCCE691E9D626400B054A9 /* PoseMessage.m in Sources */ = {isa = PBXBuildFile; fileRef = 39FCCDFD1E9D626400B054A9 /* PoseMessage.m */; };
+		39FCCE6A1E9D626400B054A9 /* QuaternionMessage.m in Sources */ = {isa = PBXBuildFile; fileRef = 39FCCDFF1E9D626400B054A9 /* QuaternionMessage.m */; };
+		39FCCE6B1E9D626400B054A9 /* TwistMessage.m in Sources */ = {isa = PBXBuildFile; fileRef = 39FCCE011E9D626400B054A9 /* TwistMessage.m */; };
+		39FCCE6C1E9D626400B054A9 /* VectorMessage.m in Sources */ = {isa = PBXBuildFile; fileRef = 39FCCE031E9D626400B054A9 /* VectorMessage.m */; };
+		39FCCE6D1E9D626400B054A9 /* WrenchMessage.m in Sources */ = {isa = PBXBuildFile; fileRef = 39FCCE051E9D626400B054A9 /* WrenchMessage.m */; };
+		39FCCE6E1E9D626400B054A9 /* LoggerMessage.m in Sources */ = {isa = PBXBuildFile; fileRef = 39FCCE081E9D626400B054A9 /* LoggerMessage.m */; };
+		39FCCE701E9D626400B054A9 /* HumidityMessage.m in Sources */ = {isa = PBXBuildFile; fileRef = 39FCCE0E1E9D626400B054A9 /* HumidityMessage.m */; };
+		39FCCE711E9D626400B054A9 /* IMUMessage.m in Sources */ = {isa = PBXBuildFile; fileRef = 39FCCE101E9D626400B054A9 /* IMUMessage.m */; };
+		39FCCE721E9D626400B054A9 /* NavSatFixMessage.m in Sources */ = {isa = PBXBuildFile; fileRef = 39FCCE121E9D626400B054A9 /* NavSatFixMessage.m */; };
+		39FCCE731E9D626400B054A9 /* NavSatStatusMessage.m in Sources */ = {isa = PBXBuildFile; fileRef = 39FCCE141E9D626400B054A9 /* NavSatStatusMessage.m */; };
+		39FCCE741E9D626400B054A9 /* TemperatureMessage.m in Sources */ = {isa = PBXBuildFile; fileRef = 39FCCE161E9D626400B054A9 /* TemperatureMessage.m */; };
+		39FCCE751E9D626400B054A9 /* BoolMessage.m in Sources */ = {isa = PBXBuildFile; fileRef = 39FCCE191E9D626400B054A9 /* BoolMessage.m */; };
+		39FCCE761E9D626400B054A9 /* DurationMessage.m in Sources */ = {isa = PBXBuildFile; fileRef = 39FCCE1B1E9D626400B054A9 /* DurationMessage.m */; };
+		39FCCE771E9D626400B054A9 /* EmptyMessage.m in Sources */ = {isa = PBXBuildFile; fileRef = 39FCCE1D1E9D626400B054A9 /* EmptyMessage.m */; };
+		39FCCE781E9D626400B054A9 /* FloatMessage.m in Sources */ = {isa = PBXBuildFile; fileRef = 39FCCE1F1E9D626400B054A9 /* FloatMessage.m */; };
+		39FCCE791E9D626400B054A9 /* HeaderMessage.m in Sources */ = {isa = PBXBuildFile; fileRef = 39FCCE211E9D626400B054A9 /* HeaderMessage.m */; };
+		39FCCE7A1E9D626400B054A9 /* IntMessage.m in Sources */ = {isa = PBXBuildFile; fileRef = 39FCCE231E9D626400B054A9 /* IntMessage.m */; };
+		39FCCE7B1E9D626400B054A9 /* StampMessage.m in Sources */ = {isa = PBXBuildFile; fileRef = 39FCCE251E9D626400B054A9 /* StampMessage.m */; };
+		39FCCE7C1E9D626400B054A9 /* StringMessage.m in Sources */ = {isa = PBXBuildFile; fileRef = 39FCCE271E9D626400B054A9 /* StringMessage.m */; };
+		39FCCE7D1E9D626400B054A9 /* TimeMessage.m in Sources */ = {isa = PBXBuildFile; fileRef = 39FCCE291E9D626400B054A9 /* TimeMessage.m */; };
+		39FCCE7E1E9D626400B054A9 /* RBManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 39FCCE2B1E9D626400B054A9 /* RBManager.m */; };
+		39FCCE7F1E9D626400B054A9 /* RBMessage.m in Sources */ = {isa = PBXBuildFile; fileRef = 39FCCE2D1E9D626400B054A9 /* RBMessage.m */; };
+		39FCCE801E9D626400B054A9 /* RBPublisher.m in Sources */ = {isa = PBXBuildFile; fileRef = 39FCCE2F1E9D626400B054A9 /* RBPublisher.m */; };
+		39FCCE811E9D626400B054A9 /* RBServiceCall.m in Sources */ = {isa = PBXBuildFile; fileRef = 39FCCE311E9D626400B054A9 /* RBServiceCall.m */; };
+		39FCCE821E9D626400B054A9 /* RBSubscriber.m in Sources */ = {isa = PBXBuildFile; fileRef = 39FCCE331E9D626400B054A9 /* RBSubscriber.m */; };
+		39FCCE9B1E9D629C00B054A9 /* ROSStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 39FCCE981E9D629C00B054A9 /* ROSStoryboard.storyboard */; };
+		39FCCE9C1E9D629C00B054A9 /* RosViewController.mm in Sources */ = {isa = PBXBuildFile; fileRef = 39FCCE9A1E9D629C00B054A9 /* RosViewController.mm */; };
+		A810762B1EA0ECDA00BCA85F /* MainROSDoubleControl.m in Sources */ = {isa = PBXBuildFile; fileRef = A81076271EA0ECDA00BCA85F /* MainROSDoubleControl.m */; };
+		A8598DD91EA7A6F90093DBC1 /* CompressedImage.m in Sources */ = {isa = PBXBuildFile; fileRef = A8598DD81EA7A6F90093DBC1 /* CompressedImage.m */; };
+		A87D99A51EA0EFFC000E2577 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A87D99A41EA0EFFC000E2577 /* CoreGraphics.framework */; };
+		A87D99A71EA0F005000E2577 /* ExternalAccessory.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A87D99A61EA0F005000E2577 /* ExternalAccessory.framework */; };
+		A87D99A91EA0F729000E2577 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A87D99A81EA0F729000E2577 /* CoreLocation.framework */; };
+		E07955DDCD802086CE9B6B9E /* libPods-ROSApplication.a in Frameworks */ = {isa = PBXBuildFile; fileRef = B6F51CDFD1E87EF79C931E05 /* libPods-ROSApplication.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		3919F9001E9D6411007E30FE /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		3919F9021E9D642A007E30FE /* libicucore.A.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libicucore.A.tbd; path = usr/lib/libicucore.A.tbd; sourceTree = SDKROOT; };
+		3919F9041E9D644A007E30FE /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = System/Library/Frameworks/CFNetwork.framework; sourceTree = SDKROOT; };
+		399169BF1EAF55CD00E27A1C /* Giraffe.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = Giraffe.jpg; path = Images/Giraffe.jpg; sourceTree = "<group>"; };
+		39B085831E9E363F0057FCFD /* new-ipad-wallpaper-hd-2048x2048-110.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = "new-ipad-wallpaper-hd-2048x2048-110.jpg"; path = "Images/new-ipad-wallpaper-hd-2048x2048-110.jpg"; sourceTree = "<group>"; };
+		39B085851E9E3D310057FCFD /* Constants.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Constants.h; sourceTree = "<group>"; };
+		39B085861E9E56D00057FCFD /* iPad-Air-Advertising-Wallpaper-Green-Jason-Zigrino.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = "iPad-Air-Advertising-Wallpaper-Green-Jason-Zigrino.jpg"; path = "Images/iPad-Air-Advertising-Wallpaper-Green-Jason-Zigrino.jpg"; sourceTree = "<group>"; };
+		39FCCDD91E9D620A00B054A9 /* ROSApplication.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ROSApplication.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		39FCCDDD1E9D620A00B054A9 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		39FCCDDF1E9D620A00B054A9 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		39FCCDE01E9D620A00B054A9 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		39FCCDE91E9D620A00B054A9 /* ROSApplication.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = ROSApplication.xcdatamodel; sourceTree = "<group>"; };
+		39FCCDEB1E9D620A00B054A9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		39FCCDF01E9D620A00B054A9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		39FCCDFA1E9D626400B054A9 /* PointMessage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PointMessage.h; sourceTree = "<group>"; };
+		39FCCDFB1E9D626400B054A9 /* PointMessage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PointMessage.m; sourceTree = "<group>"; };
+		39FCCDFC1E9D626400B054A9 /* PoseMessage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PoseMessage.h; sourceTree = "<group>"; };
+		39FCCDFD1E9D626400B054A9 /* PoseMessage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PoseMessage.m; sourceTree = "<group>"; };
+		39FCCDFE1E9D626400B054A9 /* QuaternionMessage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QuaternionMessage.h; sourceTree = "<group>"; };
+		39FCCDFF1E9D626400B054A9 /* QuaternionMessage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QuaternionMessage.m; sourceTree = "<group>"; };
+		39FCCE001E9D626400B054A9 /* TwistMessage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TwistMessage.h; sourceTree = "<group>"; };
+		39FCCE011E9D626400B054A9 /* TwistMessage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TwistMessage.m; sourceTree = "<group>"; };
+		39FCCE021E9D626400B054A9 /* VectorMessage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VectorMessage.h; sourceTree = "<group>"; };
+		39FCCE031E9D626400B054A9 /* VectorMessage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VectorMessage.m; sourceTree = "<group>"; };
+		39FCCE041E9D626400B054A9 /* WrenchMessage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WrenchMessage.h; sourceTree = "<group>"; };
+		39FCCE051E9D626400B054A9 /* WrenchMessage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WrenchMessage.m; sourceTree = "<group>"; };
+		39FCCE071E9D626400B054A9 /* LoggerMessage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LoggerMessage.h; sourceTree = "<group>"; };
+		39FCCE081E9D626400B054A9 /* LoggerMessage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LoggerMessage.m; sourceTree = "<group>"; };
+		39FCCE0D1E9D626400B054A9 /* HumidityMessage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HumidityMessage.h; sourceTree = "<group>"; };
+		39FCCE0E1E9D626400B054A9 /* HumidityMessage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HumidityMessage.m; sourceTree = "<group>"; };
+		39FCCE0F1E9D626400B054A9 /* IMUMessage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IMUMessage.h; sourceTree = "<group>"; };
+		39FCCE101E9D626400B054A9 /* IMUMessage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IMUMessage.m; sourceTree = "<group>"; };
+		39FCCE111E9D626400B054A9 /* NavSatFixMessage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NavSatFixMessage.h; sourceTree = "<group>"; };
+		39FCCE121E9D626400B054A9 /* NavSatFixMessage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NavSatFixMessage.m; sourceTree = "<group>"; };
+		39FCCE131E9D626400B054A9 /* NavSatStatusMessage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NavSatStatusMessage.h; sourceTree = "<group>"; };
+		39FCCE141E9D626400B054A9 /* NavSatStatusMessage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NavSatStatusMessage.m; sourceTree = "<group>"; };
+		39FCCE151E9D626400B054A9 /* TemperatureMessage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TemperatureMessage.h; sourceTree = "<group>"; };
+		39FCCE161E9D626400B054A9 /* TemperatureMessage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TemperatureMessage.m; sourceTree = "<group>"; };
+		39FCCE181E9D626400B054A9 /* BoolMessage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BoolMessage.h; sourceTree = "<group>"; };
+		39FCCE191E9D626400B054A9 /* BoolMessage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BoolMessage.m; sourceTree = "<group>"; };
+		39FCCE1A1E9D626400B054A9 /* DurationMessage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DurationMessage.h; sourceTree = "<group>"; };
+		39FCCE1B1E9D626400B054A9 /* DurationMessage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DurationMessage.m; sourceTree = "<group>"; };
+		39FCCE1C1E9D626400B054A9 /* EmptyMessage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EmptyMessage.h; sourceTree = "<group>"; };
+		39FCCE1D1E9D626400B054A9 /* EmptyMessage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EmptyMessage.m; sourceTree = "<group>"; };
+		39FCCE1E1E9D626400B054A9 /* FloatMessage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FloatMessage.h; sourceTree = "<group>"; };
+		39FCCE1F1E9D626400B054A9 /* FloatMessage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FloatMessage.m; sourceTree = "<group>"; };
+		39FCCE201E9D626400B054A9 /* HeaderMessage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HeaderMessage.h; sourceTree = "<group>"; };
+		39FCCE211E9D626400B054A9 /* HeaderMessage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HeaderMessage.m; sourceTree = "<group>"; };
+		39FCCE221E9D626400B054A9 /* IntMessage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IntMessage.h; sourceTree = "<group>"; };
+		39FCCE231E9D626400B054A9 /* IntMessage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IntMessage.m; sourceTree = "<group>"; };
+		39FCCE241E9D626400B054A9 /* StampMessage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = StampMessage.h; sourceTree = "<group>"; };
+		39FCCE251E9D626400B054A9 /* StampMessage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = StampMessage.m; sourceTree = "<group>"; };
+		39FCCE261E9D626400B054A9 /* StringMessage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = StringMessage.h; sourceTree = "<group>"; };
+		39FCCE271E9D626400B054A9 /* StringMessage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = StringMessage.m; sourceTree = "<group>"; };
+		39FCCE281E9D626400B054A9 /* TimeMessage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TimeMessage.h; sourceTree = "<group>"; };
+		39FCCE291E9D626400B054A9 /* TimeMessage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TimeMessage.m; sourceTree = "<group>"; };
+		39FCCE2A1E9D626400B054A9 /* RBManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RBManager.h; sourceTree = "<group>"; };
+		39FCCE2B1E9D626400B054A9 /* RBManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RBManager.m; sourceTree = "<group>"; };
+		39FCCE2C1E9D626400B054A9 /* RBMessage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RBMessage.h; sourceTree = "<group>"; };
+		39FCCE2D1E9D626400B054A9 /* RBMessage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RBMessage.m; sourceTree = "<group>"; };
+		39FCCE2E1E9D626400B054A9 /* RBPublisher.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RBPublisher.h; sourceTree = "<group>"; };
+		39FCCE2F1E9D626400B054A9 /* RBPublisher.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RBPublisher.m; sourceTree = "<group>"; };
+		39FCCE301E9D626400B054A9 /* RBServiceCall.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RBServiceCall.h; sourceTree = "<group>"; };
+		39FCCE311E9D626400B054A9 /* RBServiceCall.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RBServiceCall.m; sourceTree = "<group>"; };
+		39FCCE321E9D626400B054A9 /* RBSubscriber.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RBSubscriber.h; sourceTree = "<group>"; };
+		39FCCE331E9D626400B054A9 /* RBSubscriber.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RBSubscriber.m; sourceTree = "<group>"; };
+		39FCCE981E9D629C00B054A9 /* ROSStoryboard.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = ROSStoryboard.storyboard; sourceTree = "<group>"; };
+		39FCCE991E9D629C00B054A9 /* RosViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RosViewController.h; sourceTree = "<group>"; };
+		39FCCE9A1E9D629C00B054A9 /* RosViewController.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = RosViewController.mm; sourceTree = "<group>"; };
+		5DA441C158971C46249122D2 /* Pods-ROSApplication.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ROSApplication.release.xcconfig"; path = "Pods/Target Support Files/Pods-ROSApplication/Pods-ROSApplication.release.xcconfig"; sourceTree = "<group>"; };
+		8E736CCF4CDB3AC613613606 /* Pods-ROSApplication.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ROSApplication.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ROSApplication/Pods-ROSApplication.debug.xcconfig"; sourceTree = "<group>"; };
+		A81076261EA0ECDA00BCA85F /* MainROSDoubleControl.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainROSDoubleControl.h; sourceTree = "<group>"; };
+		A81076271EA0ECDA00BCA85F /* MainROSDoubleControl.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainROSDoubleControl.m; sourceTree = "<group>"; };
+		A810762C1EA0ECE400BCA85F /* DoubleControlSDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = DoubleControlSDK.framework; sourceTree = "<group>"; };
+		A8598DD71EA7A6F90093DBC1 /* CompressedImage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CompressedImage.h; sourceTree = "<group>"; };
+		A8598DD81EA7A6F90093DBC1 /* CompressedImage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CompressedImage.m; sourceTree = "<group>"; };
+		A87D99A41EA0EFFC000E2577 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		A87D99A61EA0F005000E2577 /* ExternalAccessory.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ExternalAccessory.framework; path = System/Library/Frameworks/ExternalAccessory.framework; sourceTree = SDKROOT; };
+		A87D99A81EA0F729000E2577 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		A8FF06DC1EA6742F00CD76ED /* PrefixHeaderROSApplication.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PrefixHeaderROSApplication.pch; sourceTree = "<group>"; };
+		B6F51CDFD1E87EF79C931E05 /* libPods-ROSApplication.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-ROSApplication.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		39FCCDD61E9D620A00B054A9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				39E7C19E1EA7741200DA1EAB /* DoubleControlSDK.framework in Frameworks */,
+				A87D99A91EA0F729000E2577 /* CoreLocation.framework in Frameworks */,
+				A87D99A71EA0F005000E2577 /* ExternalAccessory.framework in Frameworks */,
+				A87D99A51EA0EFFC000E2577 /* CoreGraphics.framework in Frameworks */,
+				3919F9051E9D644A007E30FE /* CFNetwork.framework in Frameworks */,
+				3919F9031E9D642A007E30FE /* libicucore.A.tbd in Frameworks */,
+				3919F9011E9D6411007E30FE /* Foundation.framework in Frameworks */,
+				E07955DDCD802086CE9B6B9E /* libPods-ROSApplication.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3919F8FF1E9D6411007E30FE /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A87D99A81EA0F729000E2577 /* CoreLocation.framework */,
+				A87D99A61EA0F005000E2577 /* ExternalAccessory.framework */,
+				A87D99A41EA0EFFC000E2577 /* CoreGraphics.framework */,
+				A810762C1EA0ECE400BCA85F /* DoubleControlSDK.framework */,
+				3919F9041E9D644A007E30FE /* CFNetwork.framework */,
+				3919F9021E9D642A007E30FE /* libicucore.A.tbd */,
+				3919F9001E9D6411007E30FE /* Foundation.framework */,
+				B6F51CDFD1E87EF79C931E05 /* libPods-ROSApplication.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		39B085821E9E357A0057FCFD /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				399169BF1EAF55CD00E27A1C /* Giraffe.jpg */,
+				39B085861E9E56D00057FCFD /* iPad-Air-Advertising-Wallpaper-Green-Jason-Zigrino.jpg */,
+				39B085831E9E363F0057FCFD /* new-ipad-wallpaper-hd-2048x2048-110.jpg */,
+			);
+			name = Images;
+			sourceTree = "<group>";
+		};
+		39FCCDD01E9D620A00B054A9 = {
+			isa = PBXGroup;
+			children = (
+				39FCCDDB1E9D620A00B054A9 /* ROSApplication */,
+				39FCCDDA1E9D620A00B054A9 /* Products */,
+				3919F8FF1E9D6411007E30FE /* Frameworks */,
+				41690D5169CA5CADC83B0B65 /* Pods */,
+			);
+			sourceTree = "<group>";
+		};
+		39FCCDDA1E9D620A00B054A9 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				39FCCDD91E9D620A00B054A9 /* ROSApplication.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		39FCCDDB1E9D620A00B054A9 /* ROSApplication */ = {
+			isa = PBXGroup;
+			children = (
+				A81076251EA0ECDA00BCA85F /* Double ROS Control Messages */,
+				39B085821E9E357A0057FCFD /* Images */,
+				39FCCE981E9D629C00B054A9 /* ROSStoryboard.storyboard */,
+				39FCCE991E9D629C00B054A9 /* RosViewController.h */,
+				39FCCE9A1E9D629C00B054A9 /* RosViewController.mm */,
+				39FCCDF61E9D626400B054A9 /* RBManager */,
+				39FCCDDF1E9D620A00B054A9 /* AppDelegate.h */,
+				39FCCDE01E9D620A00B054A9 /* AppDelegate.m */,
+				39FCCDEB1E9D620A00B054A9 /* Assets.xcassets */,
+				39FCCDF01E9D620A00B054A9 /* Info.plist */,
+				39FCCDE81E9D620A00B054A9 /* ROSApplication.xcdatamodeld */,
+				39FCCDDC1E9D620A00B054A9 /* Supporting Files */,
+				39B085851E9E3D310057FCFD /* Constants.h */,
+				A8FF06DC1EA6742F00CD76ED /* PrefixHeaderROSApplication.pch */,
+			);
+			path = ROSApplication;
+			sourceTree = "<group>";
+		};
+		39FCCDDC1E9D620A00B054A9 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				39FCCDDD1E9D620A00B054A9 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		39FCCDF61E9D626400B054A9 /* RBManager */ = {
+			isa = PBXGroup;
+			children = (
+				39FCCDF71E9D626400B054A9 /* RBManager */,
+			);
+			path = RBManager;
+			sourceTree = "<group>";
+		};
+		39FCCDF71E9D626400B054A9 /* RBManager */ = {
+			isa = PBXGroup;
+			children = (
+				39FCCDF81E9D626400B054A9 /* Message Types */,
+				39FCCE2A1E9D626400B054A9 /* RBManager.h */,
+				39FCCE2B1E9D626400B054A9 /* RBManager.m */,
+				39FCCE2C1E9D626400B054A9 /* RBMessage.h */,
+				39FCCE2D1E9D626400B054A9 /* RBMessage.m */,
+				39FCCE2E1E9D626400B054A9 /* RBPublisher.h */,
+				39FCCE2F1E9D626400B054A9 /* RBPublisher.m */,
+				39FCCE301E9D626400B054A9 /* RBServiceCall.h */,
+				39FCCE311E9D626400B054A9 /* RBServiceCall.m */,
+				39FCCE321E9D626400B054A9 /* RBSubscriber.h */,
+				39FCCE331E9D626400B054A9 /* RBSubscriber.m */,
+			);
+			path = RBManager;
+			sourceTree = "<group>";
+		};
+		39FCCDF81E9D626400B054A9 /* Message Types */ = {
+			isa = PBXGroup;
+			children = (
+				39FCCDF91E9D626400B054A9 /* geometry_msgs */,
+				39FCCE061E9D626400B054A9 /* roscpp */,
+				39FCCE0C1E9D626400B054A9 /* sensor_msgs */,
+				39FCCE171E9D626400B054A9 /* std_msgs */,
+			);
+			path = "Message Types";
+			sourceTree = "<group>";
+		};
+		39FCCDF91E9D626400B054A9 /* geometry_msgs */ = {
+			isa = PBXGroup;
+			children = (
+				39FCCDFA1E9D626400B054A9 /* PointMessage.h */,
+				39FCCDFB1E9D626400B054A9 /* PointMessage.m */,
+				39FCCDFC1E9D626400B054A9 /* PoseMessage.h */,
+				39FCCDFD1E9D626400B054A9 /* PoseMessage.m */,
+				39FCCDFE1E9D626400B054A9 /* QuaternionMessage.h */,
+				39FCCDFF1E9D626400B054A9 /* QuaternionMessage.m */,
+				39FCCE001E9D626400B054A9 /* TwistMessage.h */,
+				39FCCE011E9D626400B054A9 /* TwistMessage.m */,
+				39FCCE021E9D626400B054A9 /* VectorMessage.h */,
+				39FCCE031E9D626400B054A9 /* VectorMessage.m */,
+				39FCCE041E9D626400B054A9 /* WrenchMessage.h */,
+				39FCCE051E9D626400B054A9 /* WrenchMessage.m */,
+			);
+			path = geometry_msgs;
+			sourceTree = "<group>";
+		};
+		39FCCE061E9D626400B054A9 /* roscpp */ = {
+			isa = PBXGroup;
+			children = (
+				39FCCE071E9D626400B054A9 /* LoggerMessage.h */,
+				39FCCE081E9D626400B054A9 /* LoggerMessage.m */,
+			);
+			path = roscpp;
+			sourceTree = "<group>";
+		};
+		39FCCE0C1E9D626400B054A9 /* sensor_msgs */ = {
+			isa = PBXGroup;
+			children = (
+				A8598DD71EA7A6F90093DBC1 /* CompressedImage.h */,
+				A8598DD81EA7A6F90093DBC1 /* CompressedImage.m */,
+				39FCCE0D1E9D626400B054A9 /* HumidityMessage.h */,
+				39FCCE0E1E9D626400B054A9 /* HumidityMessage.m */,
+				39FCCE0F1E9D626400B054A9 /* IMUMessage.h */,
+				39FCCE101E9D626400B054A9 /* IMUMessage.m */,
+				39FCCE111E9D626400B054A9 /* NavSatFixMessage.h */,
+				39FCCE121E9D626400B054A9 /* NavSatFixMessage.m */,
+				39FCCE131E9D626400B054A9 /* NavSatStatusMessage.h */,
+				39FCCE141E9D626400B054A9 /* NavSatStatusMessage.m */,
+				39FCCE151E9D626400B054A9 /* TemperatureMessage.h */,
+				39FCCE161E9D626400B054A9 /* TemperatureMessage.m */,
+			);
+			path = sensor_msgs;
+			sourceTree = "<group>";
+		};
+		39FCCE171E9D626400B054A9 /* std_msgs */ = {
+			isa = PBXGroup;
+			children = (
+				39FCCE181E9D626400B054A9 /* BoolMessage.h */,
+				39FCCE191E9D626400B054A9 /* BoolMessage.m */,
+				39FCCE1A1E9D626400B054A9 /* DurationMessage.h */,
+				39FCCE1B1E9D626400B054A9 /* DurationMessage.m */,
+				39FCCE1C1E9D626400B054A9 /* EmptyMessage.h */,
+				39FCCE1D1E9D626400B054A9 /* EmptyMessage.m */,
+				39FCCE1E1E9D626400B054A9 /* FloatMessage.h */,
+				39FCCE1F1E9D626400B054A9 /* FloatMessage.m */,
+				39FCCE201E9D626400B054A9 /* HeaderMessage.h */,
+				39FCCE211E9D626400B054A9 /* HeaderMessage.m */,
+				39FCCE221E9D626400B054A9 /* IntMessage.h */,
+				39FCCE231E9D626400B054A9 /* IntMessage.m */,
+				39FCCE241E9D626400B054A9 /* StampMessage.h */,
+				39FCCE251E9D626400B054A9 /* StampMessage.m */,
+				39FCCE261E9D626400B054A9 /* StringMessage.h */,
+				39FCCE271E9D626400B054A9 /* StringMessage.m */,
+				39FCCE281E9D626400B054A9 /* TimeMessage.h */,
+				39FCCE291E9D626400B054A9 /* TimeMessage.m */,
+			);
+			path = std_msgs;
+			sourceTree = "<group>";
+		};
+		41690D5169CA5CADC83B0B65 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				8E736CCF4CDB3AC613613606 /* Pods-ROSApplication.debug.xcconfig */,
+				5DA441C158971C46249122D2 /* Pods-ROSApplication.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		A81076251EA0ECDA00BCA85F /* Double ROS Control Messages */ = {
+			isa = PBXGroup;
+			children = (
+				A81076261EA0ECDA00BCA85F /* MainROSDoubleControl.h */,
+				A81076271EA0ECDA00BCA85F /* MainROSDoubleControl.m */,
+			);
+			name = "Double ROS Control Messages";
+			path = "Double Control Messages";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		39FCCDD81E9D620A00B054A9 /* ROSApplication */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 39FCCDF31E9D620A00B054A9 /* Build configuration list for PBXNativeTarget "ROSApplication" */;
+			buildPhases = (
+				E2EFF48AF659114D9EFD9430 /* [CP] Check Pods Manifest.lock */,
+				39FCCDD51E9D620A00B054A9 /* Sources */,
+				39FCCDD61E9D620A00B054A9 /* Frameworks */,
+				39FCCDD71E9D620A00B054A9 /* Resources */,
+				F5AC145F40F1E48F5AC0BB93 /* [CP] Embed Pods Frameworks */,
+				70AC0F875404972012982357 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ROSApplication;
+			productName = ROSApplication;
+			productReference = 39FCCDD91E9D620A00B054A9 /* ROSApplication.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		39FCCDD11E9D620A00B054A9 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = "Kilian Michiels";
+				TargetAttributes = {
+					39FCCDD81E9D620A00B054A9 = {
+						CreatedOnToolsVersion = 8.3.1;
+						DevelopmentTeam = W5B75GH7D5;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 39FCCDD41E9D620A00B054A9 /* Build configuration list for PBXProject "ROSApplication" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 39FCCDD01E9D620A00B054A9;
+			productRefGroup = 39FCCDDA1E9D620A00B054A9 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				39FCCDD81E9D620A00B054A9 /* ROSApplication */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		39FCCDD71E9D620A00B054A9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				399169C01EAF55CD00E27A1C /* Giraffe.jpg in Resources */,
+				39B085841E9E363F0057FCFD /* new-ipad-wallpaper-hd-2048x2048-110.jpg in Resources */,
+				39FCCE9B1E9D629C00B054A9 /* ROSStoryboard.storyboard in Resources */,
+				39FCCDEC1E9D620A00B054A9 /* Assets.xcassets in Resources */,
+				39B085871E9E56D00057FCFD /* iPad-Air-Advertising-Wallpaper-Green-Jason-Zigrino.jpg in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		70AC0F875404972012982357 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ROSApplication/Pods-ROSApplication-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E2EFF48AF659114D9EFD9430 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		F5AC145F40F1E48F5AC0BB93 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ROSApplication/Pods-ROSApplication-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		39FCCDD51E9D620A00B054A9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				39FCCE7E1E9D626400B054A9 /* RBManager.m in Sources */,
+				39FCCE821E9D626400B054A9 /* RBSubscriber.m in Sources */,
+				39FCCE771E9D626400B054A9 /* EmptyMessage.m in Sources */,
+				39FCCE9C1E9D629C00B054A9 /* RosViewController.mm in Sources */,
+				A8598DD91EA7A6F90093DBC1 /* CompressedImage.m in Sources */,
+				39FCCE811E9D626400B054A9 /* RBServiceCall.m in Sources */,
+				A810762B1EA0ECDA00BCA85F /* MainROSDoubleControl.m in Sources */,
+				39FCCE7F1E9D626400B054A9 /* RBMessage.m in Sources */,
+				39FCCE6B1E9D626400B054A9 /* TwistMessage.m in Sources */,
+				39FCCE761E9D626400B054A9 /* DurationMessage.m in Sources */,
+				39FCCE751E9D626400B054A9 /* BoolMessage.m in Sources */,
+				39FCCE711E9D626400B054A9 /* IMUMessage.m in Sources */,
+				39FCCE7A1E9D626400B054A9 /* IntMessage.m in Sources */,
+				39FCCE6E1E9D626400B054A9 /* LoggerMessage.m in Sources */,
+				39FCCDE11E9D620A00B054A9 /* AppDelegate.m in Sources */,
+				39FCCE731E9D626400B054A9 /* NavSatStatusMessage.m in Sources */,
+				39FCCE7B1E9D626400B054A9 /* StampMessage.m in Sources */,
+				39FCCE691E9D626400B054A9 /* PoseMessage.m in Sources */,
+				39FCCDDE1E9D620A00B054A9 /* main.m in Sources */,
+				39FCCE791E9D626400B054A9 /* HeaderMessage.m in Sources */,
+				39FCCE681E9D626400B054A9 /* PointMessage.m in Sources */,
+				39FCCE6D1E9D626400B054A9 /* WrenchMessage.m in Sources */,
+				39FCCE721E9D626400B054A9 /* NavSatFixMessage.m in Sources */,
+				39FCCDEA1E9D620A00B054A9 /* ROSApplication.xcdatamodeld in Sources */,
+				39FCCE801E9D626400B054A9 /* RBPublisher.m in Sources */,
+				39FCCE701E9D626400B054A9 /* HumidityMessage.m in Sources */,
+				39FCCE741E9D626400B054A9 /* TemperatureMessage.m in Sources */,
+				39FCCE7C1E9D626400B054A9 /* StringMessage.m in Sources */,
+				39FCCE6A1E9D626400B054A9 /* QuaternionMessage.m in Sources */,
+				39FCCE6C1E9D626400B054A9 /* VectorMessage.m in Sources */,
+				39FCCE7D1E9D626400B054A9 /* TimeMessage.m in Sources */,
+				39FCCE781E9D626400B054A9 /* FloatMessage.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		39FCCDF11E9D620A00B054A9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 2;
+			};
+			name = Debug;
+		};
+		39FCCDF21E9D620A00B054A9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 2;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		39FCCDF41E9D620A00B054A9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8E736CCF4CDB3AC613613606 /* Pods-ROSApplication.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_WARN_INT_CONVERSION = YES;
+				DEVELOPMENT_TEAM = W5B75GH7D5;
+				ENABLE_BITCODE = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "$(PROJECT_DIR)/ROSApplication/PrefixHeaderROSApplication.pch";
+				GCC_WARN_ABOUT_POINTER_SIGNEDNESS = YES;
+				INFOPLIST_FILE = ROSApplication/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				OTHER_CFLAGS = "";
+				OTHER_CPLUSPLUSFLAGS = "";
+				PRODUCT_BUNDLE_IDENTIFIER = KM.ROSApplication;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		39FCCDF51E9D620A00B054A9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5DA441C158971C46249122D2 /* Pods-ROSApplication.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_WARN_INT_CONVERSION = YES;
+				DEVELOPMENT_TEAM = W5B75GH7D5;
+				ENABLE_BITCODE = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "$(PROJECT_DIR)/ROSApplication/PrefixHeaderROSApplication.pch";
+				GCC_WARN_ABOUT_POINTER_SIGNEDNESS = YES;
+				INFOPLIST_FILE = ROSApplication/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				OTHER_CFLAGS = "";
+				OTHER_CPLUSPLUSFLAGS = "";
+				PRODUCT_BUNDLE_IDENTIFIER = KM.ROSApplication;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		39FCCDD41E9D620A00B054A9 /* Build configuration list for PBXProject "ROSApplication" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				39FCCDF11E9D620A00B054A9 /* Debug */,
+				39FCCDF21E9D620A00B054A9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		39FCCDF31E9D620A00B054A9 /* Build configuration list for PBXNativeTarget "ROSApplication" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				39FCCDF41E9D620A00B054A9 /* Debug */,
+				39FCCDF51E9D620A00B054A9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		39FCCDE81E9D620A00B054A9 /* ROSApplication.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				39FCCDE91E9D620A00B054A9 /* ROSApplication.xcdatamodel */,
+			);
+			currentVersion = 39FCCDE91E9D620A00B054A9 /* ROSApplication.xcdatamodel */;
+			path = ROSApplication.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 39FCCDD11E9D620A00B054A9 /* Project object */;
+}
